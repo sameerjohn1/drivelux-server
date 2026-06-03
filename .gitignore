@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.*
+logs/
+*.log
+coverage/
+
+seed.js
+seeder.js
+seed/
+seeds/
+
+uploads/
+*.pem
+*.key
