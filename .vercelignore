@@ -1,0 +1,12 @@
+node_modules/
+logs/
+*.log
+.env
+.env.*
+seed.js
+seeder.js
+seed/
+seeds/
+uploads/
+*.pem
+*.key

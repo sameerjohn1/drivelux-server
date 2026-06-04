@@ -1,15 +1,34 @@
+# Dependencies
 node_modules/
+
+# Environment Variables
 .env
-.env.*
-logs/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Seed File
+seed.js
+
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary Files
+tmp/
+temp/
+
+# Coverage
 coverage/
 
-seed.js
-seeder.js
-seed/
-seeds/
+# Editor
+.vscode/
+.idea/
 
-uploads/
-*.pem
-*.key
+# OS Files
+.DS_Store
+Thumbs.db
